@@ -14,3 +14,8 @@ for (let i = 0; i < lis.length; i++) {
   lis[i].innerHTML = parseInt(lis[i].innerHTML) + n;
 }
 }
+function deepestChild(){
+  var pullsOut = document
+  .getElementById('app');
+  return pullsOut.querySelector('div#grand-node');
+}
