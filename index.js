@@ -4,4 +4,5 @@ function getFirstSelector(selector){
 function nestedTarget(){
   var pullOut = document.getElementById('nested')
           .getElementsByClassName('target');
+  return pullOut;
 }
