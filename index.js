@@ -16,6 +16,7 @@ for (let i = 0; i < lis.length; i++) {
 }
 function deepestChild(){
   var pullsOut = document
-  .getElementById('app');
-  return pullsOut.querySelector('div#grand-node');
+  .getElementById('app')
+  .querySelectorAll('div#grand-node div');
+  return pullsOut[3];
 }
