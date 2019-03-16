@@ -3,6 +3,5 @@ function getFirstSelector(selector){
 }
 function nestedTarget(){
   document.getElementById('nested')
-          .getElementsByClassName('target')
-          .remove();
+          .getElementsByClassName('target');
 }
