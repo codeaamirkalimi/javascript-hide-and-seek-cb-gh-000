@@ -6,5 +6,5 @@ function nestedTarget(){
   return pullOut.querySelector('.target');
 }
 function increaseRankBy(n){
-  
+
 }
